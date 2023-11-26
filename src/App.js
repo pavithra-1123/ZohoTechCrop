@@ -7,7 +7,7 @@ import { BrowserRouter, Route,  Routes } from 'react-router-dom';
 export function App() {
   return (
     <>
-    <div className='container'>
+    <HomePage/>
     <BrowserRouter>
     <HomePage/>
     <Routes>
@@ -15,7 +15,7 @@ export function App() {
       <Route path='list1' exact element={<ListPage1/>}/>
     </Routes>
     </BrowserRouter>
-    </div>
+    
     </>
   );
 }
